@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+body {
+  background-image: url("images/portfolio-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Source Code Pro', monospace;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 900 */
+
+.source-code-pro-header {
+  font-family: "Source Code Pro", monospace;
+  font-size: 70px;
+  font-weight: 400;
+  margin-top: 73px;
+  margin-left: 25px;
+  font-style: normal;
+}
+
+.source-code-pro-sub-header {
+  font-family: "Source Code Pro", monospace;
+  font-size: 35px;
+  font-weight: 400;
+  margin-top: -65px;
+  margin-left: 28px;
+  font-style: normal;
+}
+
+.header-projects {
+  font-family: "Source Code Pro", monospace;
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 28px;
+  font-style: normal;
+}
+
+.project-sub-header {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -20px;
+  margin-left: 28px;
+  font-style: normal;
+}
+
+.project-body {
+  font-family: "Source Code Pro", monospace;
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: 28px;
+  font-style: normal;
+}
+
+.recent-projects {
+  font-family: "Source Code Pro", monospace;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 338px;
+  /*margin-left: 100px;*/
+  font-style: normal;
+}
+
+.source-code-pro-footer {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 35px;
+  margin-left: 28px;
+}
+
+.about-text {
+  font-family: "Source Code Pro", monospace;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 35px;
+  margin-left: 28px;
+}
+
+.center-pdf {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.email-link {
+  color: #FF7400; /* Tomato color; change this to any color you prefer */
+  text-decoration: none; /* Optional: removes the underline */
+}
+
+.email-link:hover {
+  text-decoration: underline; /* Optional: adds an underline on hover */
+}
+
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.no-underline {
+  text-decoration: none;
+}
