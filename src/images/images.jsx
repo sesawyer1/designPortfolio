@@ -14,6 +14,17 @@ import menu from './underground/menu.png'
 import opening from './underground/opening.png'
 import search from './underground/search.png'
 import signup from './underground/signup.png'
+import survey from './pedalPilot/14.png'
+import lagoon from './pedalPilot/17.png'
+import database from './pedalPilot/20.png'
+import subroutes from './pedalPilot/22.png'
+import vinny from './vinny.png'
+import rocky from './rocky.png'
+import bridge from './bridge.png'
+import doublestand from './doublestand.png'
+import ladder from './ladder.png'
+import platforms from './platforms.png'
+import trees from './trees.png'
 
 
 export const images = {
@@ -33,6 +44,17 @@ export const images = {
     opening,
     search,
     signup,
+    survey,
+    lagoon,
+    database,
+    subroutes,
+    vinny,
+    rocky,
+    bridge,
+    doublestand,
+    ladder,
+    platforms,
+    trees,
 
 };
 
@@ -47,5 +69,13 @@ export const undergroundCaro = {
     friends,
     search,
 };
+
+function importAll(r) {
+    let images = {};
+    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+    return images;
+}
+
+export const pedalCaro = importAll(require.context('./pedalPilot', false, /\.(png|jpe?g|svg)$/));
 
 

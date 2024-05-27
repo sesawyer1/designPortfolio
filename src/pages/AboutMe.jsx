@@ -7,8 +7,8 @@ const Description = styled.div`
 display: flex;
 justify-content: space-between;
 align-items: left;
-margin-top: 30px;
-margin-left: 780px;
+margin-top: 44px;
+margin-left: 685px;
 `
 
 const Ending = styled.div`
@@ -53,7 +53,7 @@ const AboutMe = () => {
             <ImagePlace><img src='/headshot.png' alt="project" width={400} height={400}/></ImagePlace>
             
             <Ending>
-                <p className='about-text'>
+                <p className='about-text' style={{marginTop: '15px'}}>
                     my email is <a href='mailto:sarahsawyer2024@u.northwestern.edu' className='email-link'>sarahsawyer2024@u.northwestern.edu </a> 
                      or <br/><br/>connect with me on <a href='https://www.linkedin.com/in/sarah-sawyer-5541a81a9/' className='email-link'>LinkedIn</a>
 

@@ -2,7 +2,7 @@ import '../App.css';
 import React from 'react';
 import styled from "styled-components"
 import { images } from '../images/images';
-import { Grid } from '../pages/Projects';
+import PPCaro from '../components/PPCaro';
 
 const ColorWord = styled.span`
     color: #FF7400;`
@@ -74,6 +74,11 @@ const PedalPilot = () => {
                 </ColorWord>
             
                 </p>
+                
+            </div >
+                
+            <div style={{marginLeft: '438px', marginTop:'-469px'}}>
+                <PPCaro/>
             </div>
             <div>
                 <h2 className='project-sub-header' style={{ marginTop: '78px' }}><ColorWord>a. Needfinding</ColorWord></h2>
@@ -131,7 +136,7 @@ const PedalPilot = () => {
                 lives easy and allow them to maximize their visits.
                 </p>
                 
-                <img src={images.blackBox} alt="project" width={600} height={350} style={{marginLeft: '800px', marginTop: '-200px'}}/>
+                <img src={images.survey} alt="project" width={600} height={350} style={{marginLeft: '800px', marginTop: '-200px'}}/>
             </div>
 
             <MiddleAligned style={{ marginTop: '60px'}}>
@@ -156,7 +161,7 @@ const PedalPilot = () => {
                 as providing more imagery surrounding the different <br/>
                 routes.
                 </p>
-                <img src={images.blackBox} alt="project" width={600} height={350} style={{marginRight: '770px', marginTop: '-250px'}}/>
+                <img src={images.lagoon} alt="project" width={600} height={350} style={{marginRight: '770px', marginTop: '-250px'}}/>
             </RightAligned>
 
             <MiddleAligned style={{ marginTop: '60px'}}>
@@ -182,7 +187,7 @@ const PedalPilot = () => {
                 to create a better tailored route for the user.
                 </p>
                 
-                <img src={images.blackBox} alt="project" width={600} height={350} style={{marginLeft: '800px', marginTop: '-200px'}}/>
+                <img src={images.database} alt="project" width={600} height={350} style={{marginLeft: '800px', marginTop: '-200px'}}/>
             </div>
 
             <RightBox>
@@ -193,7 +198,7 @@ const PedalPilot = () => {
                 </BackgroundWhite>
                 
             </RightBox>
-            <img src={images.blackBox} alt="project" width={600} height={350} style={{marginLeft: '37px', marginTop: '-200px'}}/>
+            <img src={images.subroutes} alt="project" width={600} height={350} style={{marginLeft: '37px', marginTop: '-200px'}}/>
 
             <h3 className='source-code-pro-footer'>
             Contact me at: <br/><br/>

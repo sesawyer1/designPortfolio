@@ -3,6 +3,7 @@ import React from 'react';
 import styled from "styled-components"
 import { images } from '../images/images';
 import { Grid } from '../pages/Projects';
+import VideoComponent from '../components/Video';
 
 const ColorWord = styled.span`
     color: #FF7400;`
@@ -44,10 +45,17 @@ const EarthExplorer = () => {
                 </p>
             </div>
 
+            <div>
+               <VideoComponent/>
+            </div>
+
            <div>
                 <h2 className='project-sub-header' style={{ marginTop: '78px' }}><ColorWord>a. Teamwork</ColorWord></h2>
-
-                <p className='project-body' style={{ marginTop: '35px' }}>
+                <Grid style={{marginLeft: '500px'}}>
+                    <img src={images.rocky} alt="project" width={100} height={100} style={{marginLeft : '150px'}}/>
+                    <img src={images.vinny} alt="project" width={100} height={100}/>
+                </Grid>
+                <p className='project-body' style={{ marginTop: '-85px' }}>
                     In initial testing of EarthExplorer, we found <br/>
                     that the user could easily beat each level <br/>
                     without both characters. This derails the <br/>
@@ -56,8 +64,8 @@ const EarthExplorer = () => {
                     level. 
                 </p>
                 <Grid>
-                <img src={images.blackBox} alt="project" width={600} height={400} style={{marginLeft: '-20px'}}/>
-                <img src={images.blackBox} alt="project" width={600} height={400}/>
+                <img src={images.bridge} alt="project" width={600} height={400} style={{marginLeft: '-20px'}}/>
+                <img src={images.doublestand} alt="project" width={600} height={400}/>
                 </Grid>
 
                 <p className='project-body' style={{ marginTop: '25px' }}>
@@ -81,18 +89,17 @@ const EarthExplorer = () => {
                     to use both characters together to win each <br/>
                     level. 
                 </p>
-                <Grid>
-                <img src={images.blackBox} alt="project" width={600} height={400} style={{marginLeft: '-20px'}}/>
-                <img src={images.blackBox} alt="project" width={600} height={400}/>
-                </Grid>
+                
 
                 <p className='project-body' style={{ marginTop: '25px' }}>
-                    The examples above highlight ways in which we force both <br/>
-                    characters to be necessary for gameplay. We implemented a <br/>
-                    series of buttons that have to be held down to work, <br/>
-                    platforms that break under certain characters’ weight, and <br/>
-                    stretches of kill zones that require teamwork to solve.  
+                To encourage users to discover new functions <br/>
+                within the game, we created different <br/>
+                structures to climb and jump on, like <br/>
+                mushrooms. The different colors of puddle <br/>
+                also invite the user to learn through <br/>
+                discovery to survive the levels.   
                 </p>
+                <img src={images.trees} alt="project" width={600} height={400} style={{marginRight: '700px', marginTop: '-300px'}}/>
                 
             </RightAligned>
 
@@ -108,8 +115,8 @@ const EarthExplorer = () => {
                 increasing the level of teamwork needed to win.  
                 </p>
                 <Grid>
-                <img src={images.blackBox} alt="project" width={600} height={400} style={{marginLeft: '-20px'}}/>
-                <img src={images.blackBox} alt="project" width={600} height={400}/>
+                <img src={images.platforms} alt="project" width={600} height={400} style={{marginLeft: '-20px'}}/>
+                <img src={images.bridge} alt="project" width={600} height={400}/>
                 </Grid>
 
                 <p className='project-body' style={{ marginTop: '25px' }}>

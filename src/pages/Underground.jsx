@@ -55,7 +55,7 @@ const Underground = () => {
                 </p>
             </div>
 
-            <div style={{marginLeft: '400px', marginTop:'-418px'}}>
+            <div style={{marginLeft: '-12px', marginTop:'-432px'}}>
                 <Carousel/>
             </div>
                 
