@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/designPortfolio/static/css/main.10a588b0.css",
-    "main.js": "/designPortfolio/static/js/main.163b03f6.js",
+    "main.js": "/designPortfolio/static/js/main.515097fe.js",
     "static/js/453.ace21015.chunk.js": "/designPortfolio/static/js/453.ace21015.chunk.js",
+    "static/media/EERunThrough.mov": "/designPortfolio/static/media/EERunThrough.e19b9330b214e18de2f8.mov",
+    "static/media/headshot.png": "/designPortfolio/static/media/headshot.a158b96afaef55affff3.png",
     "static/media/bridge.png": "/designPortfolio/static/media/bridge.19326f7df3c8530ce26f.png",
     "static/media/ladder.png": "/designPortfolio/static/media/ladder.36ee7ddc24c67fc256b3.png",
     "static/media/platforms.png": "/designPortfolio/static/media/platforms.9505acefeec2fbb0a1ac.png",
@@ -57,11 +59,11 @@
     "static/media/slick.woff": "/designPortfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/designPortfolio/index.html",
     "main.10a588b0.css.map": "/designPortfolio/static/css/main.10a588b0.css.map",
-    "main.163b03f6.js.map": "/designPortfolio/static/js/main.163b03f6.js.map",
+    "main.515097fe.js.map": "/designPortfolio/static/js/main.515097fe.js.map",
     "453.ace21015.chunk.js.map": "/designPortfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10a588b0.css",
-    "static/js/main.163b03f6.js"
+    "static/js/main.515097fe.js"
   ]
 }
