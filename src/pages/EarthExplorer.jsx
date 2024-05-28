@@ -16,7 +16,6 @@ const RightAligned = styled.div`
 
 const EarthExplorer = () => {
     return (
-
         <div>
             <div>
                 <h1 className='header-projects'>Welcome to <ColorWord>EarthExplorer</ColorWord></h1>
