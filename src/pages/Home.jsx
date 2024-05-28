@@ -15,11 +15,11 @@ const Home = () => {
                 <h1 className='source-code-pro-header'> SARAH SAWYER</h1>
                 <h2 className='source-code-pro-sub-header'>Design, Computer Science, <br></br>and other bits</h2>
 
-                <div style={{marginLeft: '700px', marginTop: '-150px'}}>
-                    <img src={images.logo} height= '400px' width='500px' alt='logo' className='logo'/>
+                <div style={{marginLeft: '1008px', marginTop: '100px'}}>
+                    <img src={images.logo} height= '200px' width='300px' alt='logo' className='logo'/>
                 </div>
 
-                <div className='flex-center' style={{marginTop: '-250px'}}><h1 className='recent-projects'>RECENT PROJECTS</h1></div>
+                <div className='flex-center' style={{marginTop: '-270px'}}><h1 className='recent-projects'>RECENT PROJECTS</h1></div>
 
                 <Grid>
                     <Link to='/projects/underground' className='no-underline'><ProjectTile image={images.UGTitle} title="underground" subtitle="social media for artists"/></Link>
