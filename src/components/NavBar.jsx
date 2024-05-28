@@ -32,7 +32,7 @@ const NavBar  = () => {
 
     return (
         <NavBarContainer>
-            <NavBarTitle to="/">SARAH SAWYER</NavBarTitle>
+            <NavBarTitle to="/designPortfolio">SARAH SAWYER</NavBarTitle>
             <div style={{marginRight:'80px'}}>
                 <NavBarItem to="/projects">Works</NavBarItem>
                 <NavBarItem to="/contact">Contact</NavBarItem>

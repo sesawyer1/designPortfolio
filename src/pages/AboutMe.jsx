@@ -2,6 +2,7 @@ import '../App.css';
 
 import React from 'react';
 import styled from "styled-components"
+import {images} from '../images/images';
 
 const Description = styled.div`
 display: flex;
@@ -50,7 +51,7 @@ const AboutMe = () => {
 
             </Description>
 
-            <ImagePlace><img src='/headshot.png' alt="project" width={400} height={400}/></ImagePlace>
+            <ImagePlace><img src={images.headshot} alt="project" width={400} height={400}/></ImagePlace>
             
             <Ending>
                 <p className='about-text' style={{marginTop: '15px'}}>

@@ -46,7 +46,7 @@ const EarthExplorer = () => {
             </div>
 
             <div>
-               <VideoComponent/>
+               <VideoComponent />
             </div>
 
            <div>

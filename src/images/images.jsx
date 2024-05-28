@@ -25,6 +25,9 @@ import doublestand from './doublestand.png'
 import ladder from './ladder.png'
 import platforms from './platforms.png'
 import trees from './trees.png'
+import logo from './logo.png'
+import headshot from './headshot.png'
+import EElevel from './EERunThrough.mov'
 
 
 export const images = {
@@ -55,6 +58,9 @@ export const images = {
     ladder,
     platforms,
     trees,
+    logo,
+    headshot,
+    EElevel,
 
 };
 

@@ -14,12 +14,17 @@ const Home = () => {
             <header className="Landing-Page-Header">
                 <h1 className='source-code-pro-header'> SARAH SAWYER</h1>
                 <h2 className='source-code-pro-sub-header'>Design, Computer Science, <br></br>and other bits</h2>
-                <div className='flex-center'><h1 className='recent-projects'>RECENT PROJECTS</h1></div>
+
+                <div style={{marginLeft: '700px', marginTop: '-150px'}}>
+                    <img src={images.logo} height= '400px' width='500px' alt='logo' className='logo'/>
+                </div>
+
+                <div className='flex-center' style={{marginTop: '-250px'}}><h1 className='recent-projects'>RECENT PROJECTS</h1></div>
 
                 <Grid>
-                    <Link to='projects/underground' className='no-underline'><ProjectTile image={images.UGTitle} title="underground" subtitle="social media for artists"/></Link>
-                    <Link to='projects/pedalpilot' className='no-underline'><ProjectTile image={images.PPTitle} title="PedalPilot" subtitle="cycling routes for tourists" /></Link>
-                    <Link to='projects/earthexplorer' className='no-underline'><ProjectTile image={images.EETitle} title="Earth Explorer" subtitle="multi-player platformer game" /></Link>
+                    <Link to='/projects/underground' className='no-underline'><ProjectTile image={images.UGTitle} title="underground" subtitle="social media for artists"/></Link>
+                    <Link to='/projects/pedalpilot' className='no-underline'><ProjectTile image={images.PPTitle} title="PedalPilot" subtitle="cycling routes for tourists" /></Link>
+                    <Link to='/projects/earthexplorer' className='no-underline'><ProjectTile image={images.EETitle} title="Earth Explorer" subtitle="multi-player platformer game" /></Link>
                 
                 </Grid> 
 
